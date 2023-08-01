@@ -1,0 +1,82 @@
+@import "./resets.css";
+@import "./variables.css";
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: var(--ff-sans);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e58f65;
+}
+
+button {
+  font-family: inherit;
+}
+
+.window {
+  background-color: var(--background);
+  border-radius: 0.5em;
+  text-align: center;
+  max-height: 50em;
+  min-width: 25em;
+  padding: 2.75em;
+}
+
+.title-main {
+  font-family: var(--ff-serif);
+  font-weight: var(--fw-bold);
+  font-size: 2.75rem;
+  color: var(--text);
+}
+
+.count-no {
+  font-family: var(--ff-serif);
+  color: var(--primary);
+  font-size: 3.75rem;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 0.5em 1.5em;
+  background: transparent;
+  font-weight: var(--fw-bold);
+  border-radius: 0.25em;
+  display: block;
+  border: 2px solid var(--primary);
+  transition: 200ms ease;
+}
+
+.reset-btn {
+  background: var(--text);
+  color: var(--background);
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--secondary);
+}
+
+.reset-btn:hover {
+  /* scale: 1.05; */
+  color: var(--text);
+}
+
+.icon {
+  margin-top: 2em;
+  display: block;
+  text-decoration: none;
+}
+
+.icon > * {
+  font-size: 2rem;
+  color: var(--text);
+}

@@ -1,0 +1,16 @@
+:root {
+  /* font-family */
+  --ff-sans: "Roboto", sans-serif;
+  --ff-serif: "EB Garamond", serif;
+
+  /* font weights */
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* colors */
+  --text: #21080f;
+  --background: #f7dee5;
+  --primary: #269c7c;
+  --secondary: #c6d1f1;
+  --accent: #2ebd97;
+}
