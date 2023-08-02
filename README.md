@@ -27,4 +27,4 @@ The languages and tools used to make this project
 ## Preview
 See the live site here:
 ### Live site
-URL: 
+URL: https://code-beaker.github.io/counter-app/
